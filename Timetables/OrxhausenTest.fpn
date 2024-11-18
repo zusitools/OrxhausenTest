@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fahrplan" Version="A.5" MinVersion="A.1"/>
+<Fahrplan AnfangsZeit="2024-11-17 08:41:47">
+<BefehlsKonfiguration/>
+<LaPDF/>
+<StrebuPDF/>
+<ErsatzfahrplaenePDF/>
+<Begruessungsdatei/>
+<trn Gattung="Test" Nummer="1" Prio="1500" BremsstellungZug="5" APBeschl="0.5" Rekursionstiefe="5" FahrstrName="Train entry point -&gt; Anfang A" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_0Debug.dll">
+<Datei Dateiname="Timetables\OrxhausenTest.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2024-11-17 08:41:47" Abf="2024-11-17 08:41:47" Betrst="Anfang">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2024-11-17 08:41:47" Betrst="Ende">
+<FahrplanSignalEintrag FahrplanSignal="E"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" SASchaltung="2" NVRNummer="120 002-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\120\120.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<StrModul>
+<Datei Dateiname="Routes\OrxhausenTest.st3"/>
+<p/>
+<phi/>
+</StrModul>
+<UTM/>
+</Fahrplan>
+</Zusi>
